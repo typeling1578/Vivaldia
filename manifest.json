@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Vivaldia",
+    "version": "1.0",
+    "description": "Vivaldi Game",
+    "applications": {
+        "gecko": {
+            "id": "vivaldia@vivaldi.com",
+            "strict_min_version": "91.0"
+        }
+    },
+    "browser_action": {
+        "default_title": "Play!"
+    },
+    "icons": {
+        "48": "game/android-chrome-256x256.png",
+        "96": "game/android-chrome-256x256.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
